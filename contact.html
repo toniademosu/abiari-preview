@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Abi &amp; Ari Interiors</title>
+<meta name="description" content="Start your project — tell us about your space and we&rsquo;ll be in touch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400..700;1,400..600&family=Jost:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="logo" href="index.html" aria-label="Abi &amp; Ari Interiors home"><img src="images/logo-transparent.png" alt="Abi and Ari Interiors"></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Journal</a></li>
+      <li><a href="contact.html" class="nav-cta active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap page-head">
+    <p class="eyebrow">Contact</p>
+    <h1>We&rsquo;re ready to make your design dreams <em class="acc">come true</em>.</h1>
+    <p class="intro">Tell us about your project — in-person or virtual. Complete the form or email us directly, and we&rsquo;ll be in touch.</p>
+  </div>
+  <div class="section">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <div class="c-item"><p class="lab">Email</p><a href="mailto:info@abiariinteriors.com">info@abiariinteriors.com</a></div>
+        <div class="c-item"><p class="lab">Instagram</p><a href="https://www.instagram.com/abiandariinteriors/" target="_blank" rel="noopener">@abiandariinteriors</a></div>
+        <div class="c-item"><p class="lab">Where We Work</p><span class="val">In-person across Texas <em class="acc">&amp;</em> virtually, nationwide</span></div>
+        <div class="c-photo"><img src="images/projects/waverly-park/large/020.jpg" alt="A styled marble coffee table by Abi &amp; Ari Interiors"></div>
+      </div>
+      <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/PLACEHOLDER_FORM_ID" method="POST" novalidate>
+        <div class="field"><label for="cf-name">Your name</label><input id="cf-name" type="text" name="name" placeholder="Jane Smith" required></div>
+        <div class="field"><label for="cf-email">Email address</label><input id="cf-email" type="email" name="email" placeholder="jane@example.com" required></div>
+        <div class="field"><label for="cf-msg">Your project</label><textarea id="cf-msg" name="message" placeholder="Tell us about the space you&rsquo;re dreaming up&hellip;" required></textarea></div>
+        <div><button class="btn btn--solid" type="submit">Send message</button></div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <a class="foot-lockup" href="index.html"><span class="s">Abi <em class="acc" style="font-style:italic">&amp;</em> Ari</span><span class="t">Interiors</span></a>
+      <ul class="foot-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Journal</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://www.instagram.com/abiandariinteriors/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Abi &amp; Ari Interiors. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
